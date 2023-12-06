@@ -1,0 +1,65 @@
+body {
+    width: auto;
+    height: auto;
+}
+.capa{
+    width: auto;
+    height: auto;
+    background-image: url('img/capa.png');
+    background-size: cover;
+
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 350px;
+    padding: 50px;
+    justify-content: center;
+}
+.textosobre{
+    display: inline-block;
+    justify-content: flex-end;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+    justify-content: center;
+}
+.fundador{
+     font-size: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    justify-content: center;
+}
+.imagem{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+}
+.imagem1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: auto;
+}
+.imagem2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+    width: auto;
+}
+.imagem3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+    width: auto;
+}

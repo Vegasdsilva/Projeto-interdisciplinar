@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style_calculadora.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/global-styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+           <a href="index.html" style="color: rgb(255, 255, 255); text-decoration: none;  ">InovaDEM</a>
+        </div>
+        <div class="topicos">
+            <div class="home">
+                <button class="mudabotao"><a class="textohome" href="index.html" style="color: rgb(0, 0, 0); text-decoration: none;  "><h3 class="textohome">Home</h3></a></button>
+            </div>
+            <div class="acessar">
+                <button class="mudabotao"><a href="Calculadora.html" style="color: rgb(0, 0, 0); text-decoration: none;  "><h3 class="textohome">Calculadora</h3></a></button>
+            </div>
+            <div class="sobre">
+                <button class="mudabotao"><a href="sobre.html" style="color: rgb(0, 0, 0); text-decoration: none;  "><h3 class="textohome">Sobre Nós</h3></a></button>
+
+            </div>
+        </div>
+    </div>
+        <div class="fundo" style="background-image: url(img/lousa1.jpeg);">
+        <div class="divdosinput">
+            <div id="divnumeroa">
+                <input type="number" id="numero1" placeholder="N° a">
+            </div><br>
+            <div id="divnumerob">
+                <input type="number" id="numero2" placeholder="N° b">
+            </div><br>
+            <div id="divnumeroc">
+                <input type="number" id="numero3" placeholder="N° c">
+            </div>
+        </div>
+
+        <div class="imagemformula">
+            <img src="img/formula.png" alt="">
+        </div>
+            <button id="calcular" onclick="calculo()" ><img src="img/igual.png" alt=""></button>
+        <div>
+            <button id="limpar" onclick="limpar()"><img src="img/limpar.png" value="Apagador"></button>
+        </div>
+        
+        <div class="divdoresultado">
+            <div id="resultado">
+            </div>
+            <div id="raiz1">
+            </div>
+            <div id="raiz2">
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <div class="quemsomos">
+            <p class="textorodape">Quem somos?</p>
+            <a href="sobre.html" style="text-decoration: none;"><p class="textorodape">Conheça mais sobre a InovaDEM e suas resposabilidades.</p></a>
+        </div>
+        <div class="parceiros">
+            <p class="textorodape">Parceiros</p>
+            <p class="textorodape">Governo de Sp</p>
+            <p class="textorodape">Etec Centro Paula Souza</p>
+        </div>
+        <div class="faleconosco">
+            <p class="textorodape">Fale Conosco</p>
+            <p class="textorodape">inovademsp@gmail.com</p>
+            <p class="textorodape">Ouvidoria</p>
+        </div>
+    </div>
+    <div class="copy">
+        <p class="textofinalrodape">© Copyright 2023 InovaDEM. Todos os direitos reservados | Política de Privacidade | Política de Cookies | Termos de Uso</p>
+    </div>
+</body>
+</html>

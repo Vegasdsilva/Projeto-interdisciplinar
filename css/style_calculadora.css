@@ -1,0 +1,117 @@
+.fundofundo{
+    background-color: black;
+
+}
+.fundo{
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    background-image: linear-gradient(45deg, black, crimson );
+    color: white;
+    text-align: center;
+}
+input {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5cqb;
+    margin-left: 50px;
+    border: none;
+    width: 130px;
+    width: thin;
+    height: 30px;
+
+}
+#resultado{
+    display: inline-block;
+    margin-left: 500px;
+    border: solid black;
+    border-width: thin;
+    width: 150px;
+    text-align: center;
+}
+.divdosinput{
+    margin-left: 80px;
+    display: flex;
+    width: 450px;
+    height: 60px;
+
+}
+#numero1{
+    display: flex;
+    font-family: cursive;
+
+}
+#numero2{
+    display: flex;
+    font-family: cursive;
+}
+#numero3{
+    display: flex;
+    font-family: cursive;
+}
+#calcular{
+    background-color: white;
+    border: none ;
+    display: flex;
+    width: 100px;
+    height: 200px;
+    margin-top: -30px;
+    margin-left: 320px;
+    align-items: center;
+    text-align: center;
+
+}
+.imagemformula{
+    margin-left: -240px;
+    margin-top: 60px;
+	
+}
+#limpar{
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 500px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+
+}
+.limparletras{
+    margin-left: 350px;
+
+}
+.divdoresultado{
+    margin-top: -190px;
+    margin-left: 80px;
+}
+#resultado{
+    font-size: 30px;
+    color: black;
+    border: none;
+    margin-top: 30px;
+    margin-left: -50px;
+    width: 200px;
+    height: 100px;
+    font-family: cursive;
+}
+#raiz1{
+    display: flex;
+    color: black;
+    margin-top: -50px;
+    padding: 5px;
+    font-family: cursive;
+}
+#raiz2{
+    display: flex;
+    color: black;
+    padding: 5px;
+    font-family: cursive;
+}
+.apagador{
+    display: flex;
+    margin-left: -70px;
+    margin-top: -20px;
+}
